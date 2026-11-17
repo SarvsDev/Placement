@@ -1,0 +1,14 @@
+#collegeName {
+    color: blue;
+    text-align: center;
+}
+#studentReport {
+    color: yellow;
+    text-align: center;
+}
+.logo {
+    border: 2px ridge orange;
+    width: 100px;
+    height: 100px;
+    margin-left: 45%
+}
