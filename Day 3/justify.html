@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5px;
+        background-color: #7a2222;
+        padding: 10px;
+    }
+    .container div{
+        background-color: rgba(255, 145, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .item1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+</body>
+</html>
