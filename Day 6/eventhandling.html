@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function handleButtonClick() {
+        const textMessage = document.getElementById("textMessage");
+        textMessage.style.color = "red";
+    }
+</script>
+<style>
+    body {
+        background-color: lightblue;
+    }
+    #myButton {
+        background-color: white;
+        
+    }
+</style>
+<body>
+    <input type="submit" value="Click Me" id="myButton" onclick="handleButtonClick()">
+    <p id="textMessage">This is a text message.</p>
+</body>
+</html>
