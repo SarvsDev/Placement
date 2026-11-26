@@ -1,0 +1,8 @@
+Mongo DB:
+
+Creating DB: Use <Database name>
+Creating Collection: db.createCollection("Name")
+Inserting Elements: db.<collectionname>.InsertOne({Name:"Name",Year:2000})
+Inserting Multiple Elements: db.<collectionname>.InsertMany([{Name:"Name",Year:2000},{Name:"Name",Year:2000}])
+Updating Element: db.<collectionname>.updateOne({Course:"Java"},{$set:{Course:"Android"} } )
+Display All element: db.<collectionname>.find()
